@@ -1,5 +1,5 @@
 import { Instagram, Facebook, Phone } from 'lucide-react';
-import logoL from 'figma:asset/4d081c1d6ff7597eeada0ab976e423614455a50f.png';
+// import logoL from 'figma:asset/4d081c1d6ff7597eeada0ab976e423614455a50f.png';
 import styles from './Footer.module.css';
 
 export function Footer() {
@@ -7,7 +7,7 @@ export function Footer() {
     <footer className={styles.footer}>
       <div className={styles.container}>
         <div className={styles.logo}>
-          <img src={logoL} alt="L" className={styles.logoIcon} />
+          {/* <img src={logoL} alt="L" className={styles.logoIcon} /> */}
           <span className={styles.logoText}>LUCOVICA</span>
         </div>
 

@@ -1,12 +1,12 @@
 import { MessageCircle, Award, Zap, Users } from 'lucide-react';
-import logoLWhite from 'figma:asset/4d081c1d6ff7597eeada0ab976e423614455a50f.png';
+// import logoLWhite from 'figma:asset/4d081c1d6ff7597eeada0ab976e423614455a50f.png';
 import styles from './Hero.module.css';
 
 export function Hero() {
   return (
     <section className={styles.hero}>
       <div className={styles.bgLogo}>
-        <img src={logoLWhite} alt="" />
+        {/* <img src={logoLWhite} alt="" /> */}
       </div>
 
       <div className={styles.content}>
