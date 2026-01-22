@@ -1,0 +1,58 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.container {
+  max-width: 430px;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logoIcon {
+  width: 32px;
+  height: 32px;
+}
+
+.logoText {
+  height: 20px;
+}
+
+.menuButton {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: none;
+  transition: background-color 0.2s;
+}
+
+.menuButton:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.menuButton:active {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.menuIcon {
+  width: 24px;
+  height: 24px;
+  color: #1e3a5f;
+}

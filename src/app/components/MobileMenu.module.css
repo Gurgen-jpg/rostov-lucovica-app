@@ -1,0 +1,115 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background-color: #ffffff;
+}
+
+.container {
+  max-width: 430px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 0 20px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logoIcon {
+  width: 32px;
+  height: 32px;
+}
+
+.logoText {
+  height: 20px;
+}
+
+.closeButton {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: none;
+  transition: background-color 0.2s;
+}
+
+.closeButton:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.closeButton:active {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.closeIcon {
+  width: 24px;
+  height: 24px;
+  color: #1e3a5f;
+}
+
+.nav {
+  flex: 1;
+  padding: 32px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.menuList {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.menuItem {
+  width: 100%;
+  text-align: left;
+  padding: 16px;
+  font-size: 18px;
+  color: #1e3a5f;
+  background: none;
+  border-radius: 12px;
+  transition: background-color 0.2s;
+}
+
+.menuItem:hover {
+  background-color: #f5f1e8;
+}
+
+.cta {
+  margin-top: auto;
+  padding-top: 32px;
+}
+
+.ctaButton {
+  width: 100%;
+  height: 56px;
+  background-color: #1e3a5f;
+  color: white;
+  border-radius: 16px;
+  font-weight: 500;
+  font-size: 18px;
+  transition: background-color 0.2s;
+}
+
+.ctaButton:hover {
+  background-color: #2a4d7f;
+}
+
+.ctaButton:active {
+  background-color: #16304d;
+}

@@ -1,0 +1,9 @@
+.container {
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.main {
+  max-width: 430px;
+  margin: 0 auto;
+}

@@ -1,0 +1,83 @@
+.footer {
+  background-color: #1e3a5f;
+  color: white;
+}
+
+.container {
+  max-width: 430px;
+  margin: 0 auto;
+  padding: 48px 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.logoIcon {
+  width: 40px;
+  height: 40px;
+  filter: brightness(0) invert(1);
+}
+
+.logoText {
+  color: white;
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 0.15em;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.socialLink {
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+}
+
+.socialLink:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.socialIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+  font-size: 14px;
+}
+
+.link {
+  color: rgba(255, 255, 255, 0.7);
+  transition: color 0.2s;
+}
+
+.link:hover {
+  color: white;
+}
+
+.copyright {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+}

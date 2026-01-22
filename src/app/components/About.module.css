@@ -1,0 +1,76 @@
+.about {
+  position: relative;
+  padding: 64px 20px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.bgLogo {
+  position: absolute;
+  top: 32px;
+  right: -60px;
+  opacity: 0.02;
+  user-select: none;
+  pointer-events: none;
+}
+
+.bgLogo img {
+  width: 220px;
+  height: 220px;
+  object-fit: contain;
+}
+
+.content {
+  position: relative;
+  z-index: 10;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #1e3a5f;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.imageWrapper {
+  margin-bottom: 24px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.textContent {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.paragraph {
+  color: #666;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.badge {
+  padding: 8px 16px;
+  background-color: #f5f1e8;
+  border-radius: 999px;
+  font-size: 14px;
+  color: #1e3a5f;
+  font-weight: 300;
+  border: 1px solid rgba(30, 58, 95, 0.1);
+}

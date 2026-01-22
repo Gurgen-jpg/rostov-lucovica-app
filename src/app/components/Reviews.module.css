@@ -1,0 +1,76 @@
+.reviews {
+  padding: 64px 20px;
+  background: linear-gradient(to bottom, #ffffff, #f5f1e8);
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #1e3a5f;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.subtitle {
+  color: #666;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 32px;
+  font-weight: 300;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.userInfo {
+  flex: 1;
+}
+
+.userName {
+  font-weight: 500;
+  color: #1e3a5f;
+  font-size: 16px;
+}
+
+.zone {
+  font-size: 14px;
+  color: #999;
+  font-weight: 300;
+}
+
+.rating {
+  display: flex;
+  gap: 2px;
+}
+
+.star {
+  width: 16px;
+  height: 16px;
+  fill: #1e3a5f;
+  color: #1e3a5f;
+}
+
+.text {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.6;
+  font-weight: 300;
+}
