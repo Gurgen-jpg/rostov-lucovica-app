@@ -4,7 +4,7 @@ import { Services } from './components/Services';
 import { BeforeAfter } from './components/BeforeAfter';
 import { About } from './components/About';
 import { Reviews } from './components/Reviews';
-import { FAQ } from './components/FAQ';
+import { FAQ } from './faq/index';
 import { Contacts } from './components/Contacts';
 import { Footer } from './components/Footer';
 import styles from './page.module.css';
