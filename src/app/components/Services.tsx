@@ -1,5 +1,5 @@
 import { Footprints, Heart, Sparkles, User, Hand } from 'lucide-react';
-import logoLWhite from 'figma:asset/4d081c1d6ff7597eeada0ab976e423614455a50f.png';
+// import logoLWhite from 'figma:asset/4d081c1d6ff7597eeada0ab976e423614455a50f.png';
 import styles from './Services.module.css';
 
 export function Services() {
@@ -39,7 +39,7 @@ export function Services() {
   return (
     <section id="services" className={styles.services}>
       <div className={styles.bgLogo}>
-        <img src={logoLWhite} alt="" />
+        {/* <img src={logoLWhite} alt="" /> */}
       </div>
 
       <div className={styles.content}>

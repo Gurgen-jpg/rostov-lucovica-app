@@ -1,7 +1,7 @@
 import { X } from 'lucide-react';
 import { useEffect } from 'react';
-import logoL from 'figma:asset/4d081c1d6ff7597eeada0ab976e423614455a50f.png';
-import logoText from 'figma:asset/ec4cb93d910ee4c2a7039af136640dc96c4b49d2.png';
+// import logoL from 'figma:asset/4d081c1d6ff7597eeada0ab976e423614455a50f.png';
+// import logoText from 'figma:asset/ec4cb93d910ee4c2a7039af136640dc96c4b49d2.png';
 import styles from './MobileMenu.module.css';
 
 interface MobileMenuProps {
@@ -46,8 +46,8 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
       <div className={styles.container}>
         <div className={styles.header}>
           <div className={styles.logo}>
-            <img src={logoL} alt="L" className={styles.logoIcon} />
-            <img src={logoText} alt="LUCOVICA" className={styles.logoText} />
+            {/* <img src={logoL} alt="L" className={styles.logoIcon} />
+            <img src={logoText} alt="LUCOVICA" className={styles.logoText} /> */}
           </div>
           
           <button 
